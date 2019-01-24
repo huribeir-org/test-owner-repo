@@ -1,0 +1,15 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - printenv
+ 
+  pre_build:
+    commands:
+       - echo 0000000
+
+  build:
+    commands:
+       - echo 9999999
+
